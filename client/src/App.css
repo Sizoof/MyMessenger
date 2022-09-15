@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../src/fonts/Ubuntu/Ubuntu-Bold.woff2') format('woff2'),
+        url('../src/fonts/Ubuntu/Ubuntu-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../src/fonts/Ubuntu/Ubuntu-Medium.woff2') format('woff2'),
+        url('../src/fonts/Ubuntu/Ubuntu-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../src/fonts/Ubuntu/Ubuntu-Italic.woff2') format('woff2'),
+        url('../src/fonts/Ubuntu/Ubuntu-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../src/fonts/Ubuntu/Ubuntu-Light.woff2') format('woff2'),
+        url('../src/fonts/Ubuntu/Ubuntu-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../src/fonts/Ubuntu/Ubuntu-LightItalic.woff2') format('woff2'),
+        url('../src/fonts/Ubuntu/Ubuntu-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../src/fonts/Ubuntu/Ubuntu-Regular.woff2') format('woff2'),
+        url('../src/fonts/Ubuntu/Ubuntu-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../src/fonts/Ubuntu/Ubuntu-MediumItalic.woff2') format('woff2'),
+        url('../src/fonts/Ubuntu/Ubuntu-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../src/fonts/Ubuntu/Ubuntu-BoldItalic.woff2') format('woff2'),
+        url('../src/fonts/Ubuntu/Ubuntu-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}

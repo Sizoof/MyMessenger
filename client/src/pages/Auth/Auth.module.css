@@ -1,0 +1,84 @@
+.auth{
+    background: url('../../assets/background.jpeg') no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100% 100%; /* Современные браузеры */
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 35rem;
+    margin: 4rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    -webkit-box-shadow: 4px 4px 20px -1px rgba(104, 107, 109, 0.29);
+    -moz-box-shadow: 4px 4px 20px -1px rgba(104, 107, 109, 0.29);
+    box-shadow: 4px 4px 20px -1px rgba(104, 107, 109, 0.29);
+}
+
+.title {
+    font-size: 2.2rem;
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    outline: none;
+    width: 25rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    font-family: Ubuntu;
+    font-weight: normal;
+}
+
+.input:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    width: 7rem;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    background-color: #2e2e2e;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    color: white;
+    font-family: Ubuntu;
+    font-weight: normal;
+}
+
+.button:hover {
+    color: #2e2e2e;
+    background-color: white;
+    border: 1px solid #2e2e2e;
+    transition: 0.25s;
+}
+
+.swapAuth {
+    font-family: Ubuntu;
+    font-weight: 300;
+}
